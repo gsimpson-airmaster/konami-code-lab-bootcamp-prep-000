@@ -59,5 +59,4 @@ function checkKey(key) {
 
 function sendAlert() {
   alert("BOOM!!! You found the secret code");
-  console.log("running alert!");
 }

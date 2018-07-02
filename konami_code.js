@@ -50,7 +50,7 @@ function checkKey(key) {
     }
     if(flag) {
       console.log(`Found the code, sending alert`);
-      body.alert("BOOM!!! You found the secret code");
+      document.alert("BOOM!!! You found the secret code");
       console.log("You should have seen an alert");
     }
   }
